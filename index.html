@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electricity Bill Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Electricity Bill Calculator</h1>
+    <div id="form">
+    <label for="name">Customer Name</label><br>
+    <input type="text" placeholder="Enter your name" id="name"><br><br>
+    <label for="units">Units Consumed</label><br>
+    <input type="number" placeholder="Number of units consumed" id="units_consumed"><br><br>
+    <button id="calculate">Calculate</button><br>
+    <button type="reset" id="clear">Clear</button>
+    </div>
+    <div id="bill-details">
+        <h2>Bill Details</h2>
+        <p id="customer-name"></p>
+        <p id="total-units"></p>
+        <p id="total-bill"></p>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
+
+
+
+
+
