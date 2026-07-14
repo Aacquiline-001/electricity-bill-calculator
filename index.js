@@ -40,7 +40,7 @@ calculate_bill.addEventListener("click", () => {
         total = 1200 + ((u - 200) * 10);
     }
     else{
-        total=0;
+        total=u;
     }
 
     display_name.innerHTML = "Customer Name:" + name;
